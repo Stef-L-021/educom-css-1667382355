@@ -47,3 +47,25 @@
     width: 200px;
     height: 900px;
 }
+
+/* CSS voor 08 pseudo classes (links)
+
+/* unvisited link */
+a:link {                            /* let op dit is a: */
+    color: red;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: magenta;
+}
+
+/*selected link */
+a:active {
+    color: brown;
+}

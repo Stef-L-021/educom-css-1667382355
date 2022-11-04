@@ -9,3 +9,18 @@
     background-color: rgba(255,0,0,0.4);
     display: inline-block;
 }
+
+/* CSS voor 05-inheritance: */
+
+.cascading-parent {
+    font-weight: bold;
+    color: #FFF;
+    padding: 20px 70px;
+    text-align: center;
+}
+
+.cascading-child {
+    background-color: #000;
+    color: #FF0 !important;
+    height: 900px;
+}                                     

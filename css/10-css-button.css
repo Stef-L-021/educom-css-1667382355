@@ -1,0 +1,65 @@
+.button-container a {
+    width: 200px;
+    padding:10px;
+    color: #FFF;
+    background-color: #F00;
+
+    /*Rounding corners */
+    border-radius: 10px;
+
+    /* Shadows */
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.6);
+    -box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.6);
+
+    /* remove underline */
+    text-decoration: none;
+
+    transition: all 0.5s ease;
+}
+
+.button-container a:hover {
+    background-color #AF1F16;
+    text-decoration: none;
+}
+
+/* 2de simpele button */
+
+.bobby a {
+    width: 200px;
+    padding:10px;
+    color: #FFF;
+    background-color: rgb(25, 0, 255);
+
+    /*Rounding corners */
+    border-radius: 30px;
+
+    /* Shadows */
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.6);
+    -box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.6);
+
+    /* remove underline */
+    text-decoration: none;
+}
+
+/* 3de button met Gradient: */
+
+.gradient-button a {
+        width: 200px;
+        padding:10px;
+        color: #FFF;
+        background: rgb(2,0,36);
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,59,1) 35%, rgba(0,212,255,1) 100%);
+    
+        /*Rounding corners */
+        border-radius: 5px;
+    
+        /* Shadows */
+        -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.6);
+        -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.6);
+        -box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.6);
+    
+        /* remove underline */
+        text-decoration: none;
+}

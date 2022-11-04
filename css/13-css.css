@@ -1,0 +1,115 @@
+html, body {
+    margin: 0 !important;
+    padding: 0 !important;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Logo {
+    background-color: white;
+    color: black;
+    padding: 40px;
+}
+
+.content {
+    background-color: white;
+    color:white;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+}
+
+.block {
+    background-position: center center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 32%;
+    height: 150px;
+    line-height: 150px;
+    margin: 5px;
+    border: 10px solid transparent;
+    border-radius: 10%;                     /* voegt een rond border toe */
+    transition: all 0.3s ease;              /* Voegt een kleine animatie toe */
+    text-align: center;
+
+}
+
+.block-1{
+    background: url("https://i.pinimg.com/originals/70/0f/70/700f70da18f4d67bf9a09a766bd8f45f.jpg");
+    background-position: center center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.block-2 {
+    background: url("https://upload.wikimedia.org/wikipedia/commons/e/e7/Arcades_du_Cinquantenaire%2C_Bruxelles.jpg");
+    background-position: center center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.block-3 {
+    background: url("https://i.etsystatic.com/9649073/r/il/2ba866/1178519552/il_fullxfull.1178519552_5rq7.jpg");
+    background-position: center center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.block:hover {
+    border: 5px solid transparent;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+
+.footer {
+    background-color: lightgrey;
+    color: white;
+    padding: 40px;
+}
+
+.footer-1 {
+    text-align: left;
+
+}
+
+.footer-2 {
+    text-align: right;
+}
+
+/* Menu */
+
+.menu {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+
+.menu-trigger {
+    background-color: rgb(226, 0, 0);
+    width: 40px;
+    height: 10px;
+    cursor: pointer;
+    transition: all 0.4 ease;
+    z-index: 5000 !important;
+}
+
+.menu-trigger:hover {
+    background-color: #fff000;
+}
+.menu-trigger:hover .dropdown {
+    top: 0px;
+}
+
+.dropdown {
+    position: fixed;
+    top:-400px;
+    left: 0;
+    right: 0;
+    height: 200px;
+    background-color: rgb(0, 255, 157);
+    transition: all 0.4s ease;
+    padding: 40px;
+}

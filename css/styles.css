@@ -30,3 +30,20 @@
 .cascading-parent h2 {
     color: #09f;
 }
+
+/* CSS voor 07 Multiple classes */
+
+.site-font {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.site-color {
+    background-color: greenyellow;
+    color: rgb(0, 0, 0);
+}
+
+.site-square {
+    width: 200px;
+    height: 900px;
+}

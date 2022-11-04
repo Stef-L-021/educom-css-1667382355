@@ -1,0 +1,32 @@
+:root {
+
+    /* Fonts */
+    --regular: "Arial";
+
+    /* Colors */
+    --dark-brown: #402214;
+    --lighter-brown: #774231;
+    --lighest-brown: #aa4b1b;
+
+    --darker-red: #b31714;
+    --lighter-red: #dc3439;
+
+    --white: #FFF;
+    --black: #000;
+}
+
+.block {
+
+    color: var(--white);
+    text-align: center;
+    width: 32%;
+    background-color: black;
+}
+
+.block-1 {
+    background-color: var(--dark-brown);
+}
+
+.block-2 {
+    background-color: var(--lighter-brown);
+}

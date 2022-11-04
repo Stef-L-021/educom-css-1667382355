@@ -23,4 +23,10 @@
     background-color: #000;
     color: #FF0 !important;
     height: 900px;
-}                                     
+}       
+
+/* CSS voor 06-Cascading */
+
+.cascading-parent h2 {
+    color: #09f;
+}
